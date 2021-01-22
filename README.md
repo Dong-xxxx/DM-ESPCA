@@ -17,6 +17,7 @@ learning classification models can be improved by up to 22% of accuracy. We beli
 model. The DM-ESPCA model can help researchers better conduct cancer subtype research.
 
 #process
+
 1.filter metadata for each subtype in the cancer dataset. 
 
 2.based on metadata, use known subtype classification information as prior information, calculate the correlation degree of each gene probe corresponding to each subtype.
