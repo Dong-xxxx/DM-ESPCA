@@ -50,7 +50,7 @@ err:
 
 Num.init:
 
-w_l: t_value data of each subtype.
+w_l: t-value data of each gene corresponding to subtype.
 
 #output
 
