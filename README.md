@@ -1,12 +1,14 @@
 # DM-ESPCA
 
 #Abstract
+
 Motivation: The latest research shows that each type of cancer can be divided into multiple sub-types, which is one of the key reasons that make cancer difficult to cure. 
 Therefore, finding a new target gene of cancer subtypes has great significance on developing new tumor drugs and person-alized treatment plan. Because the genetic data of cancer 
 are usually high-dimensional and have multiple potential subtype classifications, the sparse principal component analysis (PCA) model has become a natural candidate method for 
 identifying cancer subtype targets and subtype cluster-ing. Researchers has been proposed some cancer subtype gene probe screening models based on sparse PCA. However, the 
 performance of existing models is not good enough. We have no-ticed that none of the existing models using the existing classification information of cancer sub-types as prior 
 information and the existing models also cannot solve the sample quality problem.
+
 Results: In order to solve the problems above, we propose Dynamic Metadata Edge-group Sparse PCA (DM-ESPCA) model. DM-ESPCA model first uses the known classification information 
 of cancer subtypes as prior knowledge. Next, this model filters the metadata set to build a dynamic gene network for each cancer subtype. Finally, the dynamic network is used to 
 establish a sparse PCA model to screen the potential targets corresponding to each subtype. The experiments in this paper show that the DM-ESPCA model is better than the 
@@ -55,6 +57,6 @@ return (list(U, D, V))
 
 #example
 
-There is a gastric cancer data set as an example in the 'data' folder, which can be used directly after decompression.
+There is a gastric cancer data set (http://www.pathwaycommons.org/) as an example in the 'data' folder, which can be used directly after decompression.
 
 And the result of the example is saved in the 'result' folder.
