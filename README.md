@@ -57,6 +57,7 @@ return (list(U, D, V))
 
 #example
 
-There is a gastric cancer data set (http://www.pathwaycommons.org/) as an example in the 'data' folder, which can be used directly after decompression.
+There is a gastric cancer data set (https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-35809/) as an example in the 'data' folder, which can be used directly after 
+decompression.
 
 And the result of the example is saved in the 'result' folder.
