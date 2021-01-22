@@ -8,7 +8,7 @@ DM_ESPCA = function(X, k=2, overlap.group, k.group=2, we=0.5, t = 0.1, niter=20,
   tX = X
   #overlap.group
   weight_list = list()
-  for (j in 1:28838)
+  for (j in 1:p)
   {
     weight_list[[j]] = c((w_l[[1]][[j]]))
   }
@@ -19,7 +19,7 @@ DM_ESPCA = function(X, k=2, overlap.group, k.group=2, we=0.5, t = 0.1, niter=20,
 
   for(i in 2:k){
     weight_list = list()
-    for (j in 1:28838)
+    for (j in 1:p)
     {
       weight_list[[j]] = c((w_l[[i]][[j]]))
     }
